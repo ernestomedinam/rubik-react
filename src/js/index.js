@@ -7,6 +7,7 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import { RubikSheet } from "./component/RubikSheet";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<RubikSheet />, document.querySelector("#app"));
